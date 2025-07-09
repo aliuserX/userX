@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+@font-face {
+  font-family: myFont;
+  src: url(fonts/Roboto-MediumItalic.ttf) format('ttf');
+}
+
+
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  background:rgb(248,248,248);
+  
+}
+
+h1,
+.h1 {
+  font-size: 36px;
+  text-align: center;
+  font-size: 5em;
+  color: #404041;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  margin-top: 20px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  width: 150px;
+  font-weight: bold;
+font-size:20pt;
+	
+}
+
+.mega-dropdown {
+  position: static !important;
+  width: 100%;
+}
+
+.mega-dropdown-menu {
+  padding: 20px 0px;
+  width: 100%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.mega-dropdown-menu:before {
+  content: "";
+  border-bottom: 15px solid #fff;
+  border-right: 17px solid transparent;
+  border-left: 17px solid transparent;
+  position: absolute;
+  top: -15px;
+  left: 285px;
+  z-index: 10;
+}
+
+.mega-dropdown-menu:after {
+  content: "";
+  border-bottom: 17px solid #ccc;
+  border-right: 19px solid transparent;
+  border-left: 19px solid transparent;
+  position: absolute;
+  top: -17px;
+  left: 283px;
+  z-index: 8;
+}
+
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #999;
+  white-space: normal;
+	font-size: 14pt;
+}
+
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+  color: #444;
+  
+	font-size: 17pt;
+}
+
+.mega-dropdown-menu .dropdown-header {
+  color: #428bca;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.mega-dropdown-menu form {
+  margin: 3px 20px;
+}
+
+.mega-dropdown-menu .form-group {
+  margin-bottom: 3px;
+}
+
+.logo{
+	width:50px;
+	height:25px;
+}
+
+.padding-containerAsli{
+	padding:0px;
+	padding-top:20px;
+}
+.sizePsearchModal{
+	font-size:15pt;
+}
+.sizePkhridModal{
+	font-size:15pt;
+	color:#428bca;
+}
+
+.paddinTopModalProduct{
+	padding-top:30px;
+}
+.marginPriceKharid{
+	margin-right:7px;
+}
+.TitrModalKharid{
+	color:#428bca;
+	font-size:13pt;
+}
+.MarginBtnKharidModal{
+	margin-bottom: 10px;
+}
+.backgroundcolorHfooterMobile{
+	background-color:#5A5A5A;
+	height:60px;
+	padding-top:20px;
+	padding-left:20px;
+	color:white;
+	border-bottom: 1px solid white;
+}
+.backgroundcolorHfooterMobile:hover{
+	cursor: pointer;
+}
+.backgroundcolorHfooterMobile2{
+	background-color:white;
+	height:60px;
+	padding-top:20px;
+	padding-left:20px;
+	color:black;
+	border-bottom: 1px solid gray;
+}
+.backgroundcolorHfooterMobile2:hover{
+	background-color:black;
+	height:60px;
+	padding-top:20px;
+	padding-left:20px;
+	color:white;
+	border-bottom: 1px solid gray;
+	cursor: pointer;
+}
+.backgroundcolorHfooterMobile3{
+	background-color:white;
+	height:60px;
+	padding-top:12px;
+	padding-left:20px;
+	color:black;
+	border-bottom: 1px solid gray;
+}
+.transformtriangle{
+	
+	transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	
+	
+	}
+.news {
+	display:none;
+}
+.socialMedia{
+	width:30px;
+		height:30px;
+		margin-left:20px;
+}
+.FooterClassPc{
+	background-color:gray;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.footerclassPPc{
+	color:white;
+	font-size:10pt;
+}
+.footerclassPPc2{
+	color:white;
+	font-size:8pt;
+}
+.socialmedia2{
+	width:30px;
+		height:30px;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+.socialmedia3{
+	width:30px;
+		height:30px;
+	margin-bottom:10px;
+}
+
+.footerclassPPc2:hover{
+	cursor: pointer;
+	color:lightblue;
+}
+.socialmedia3:hover{
+	cursor: pointer;
+}
+.socialmedia2:hover{
+	cursor: pointer;
+}
+.footerclassPPc3{
+	color:white;
+	font-size:12pt;
+	margin-bottom: 20px;
+}
+.footerclassPPc3:hover{
+	cursor: pointer;
+	color:lightblue;
+}
+.PMainAsli{
+	color:black;
+	font-size:20pt;
+}
+.PMainAsli:hover{
+	color:#428bca;
+	font-size:25pt;
+	border-bottom:5px solid #146C70;
+	cursor: pointer;
+}
+.btnAsliMain{
+	background-color:rgb(248,248,248);
+	color:orangered;
+	border-width:0px;
+	margin-left:10px;
+	font-size:15pt;
+	margin-bottom: 45px;
+}
+.btnAsliMain2{
+	background-color:rgb(248,248,248);
+	color:#AD1A96;
+	border-width:0px;
+	margin-left:10px;
+	font-size:15pt;
+	margin-bottom: 45px;
+}
+.TagPMainTitr{
+	font-size:15pt;
+	margin-bottom: 20px;
+}
+.productMainASli{
+	margin-bottom: 10px;
+}
+.btnjavascripty{
+	color:black;
+	background-color:rgb(248,248,248);
+	font-size:20pt;
+	border-width:0px;
+	margin-bottom: 50px;
+}
+.btnjavascripty:hover{
+	color:#4B68D9;
+	background-color:rgb(248,248,248);
+	font-size:25pt;
+	border-width:0px;
+	margin-bottom: 50px;
+}
+.navarRangi{
+	background-color:aqua;
+	height:2px;
+	margin-top:70px;
+}
+.padding0px{
+	padding:0px;
+}
+
+.backgroundoops{
+	background-image: url("../image/back3.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	margin-bottom: 50px;
+	height:500px;
+	padding-top:100px;
+}
+.paddingProduct{
+	padding-left:50px;
+}
+.fontSizeAsli{
+	font-size:50pt;
+	color:white;
+	font-family: myFont;
+	
+}

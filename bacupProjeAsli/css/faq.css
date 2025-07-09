@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  background:rgb(248,248,248);
+  
+}
+.faq{
+font-size:50pt;
+	color:aqua;
+}
+.faq2{
+	font-size:20pt;
+}
+.faq3{
+	font-size:15pt;
+	margin-bottom:30px;
+}
+.faq4{
+	margin-bottom:20px;
+	font-size:20pt;
+	color:#394E88;
+}
+.fontSearch{
+	font-size:12pt;
+	margin-bottom: 20px;
+}
+.fontSearch2{
+	font-size:12pt;
+	margin-bottom: 20px;
+}
+.marginStepBaady{
+	margin-bottom: 30px;
+}
+.rangSpanFAq{
+	color:#394E88;
+	margin-right:5px;
+}
+.borderForm{
+	padding-top:20px;
+}
+.Padding0{
+	padding:0px;
+}
+.Marginform{
+	margin-bottom: 10px;
+}
+.SpanRangForm{
+	background-color:#394E88;
+	color:white;
+}
