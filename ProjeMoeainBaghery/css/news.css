@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@font-face {
+  font-family:FIFA;
+  src:url(fonts/a.ttf) format('ttf');
+}
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: white;
+}
+.PADDINGASLIMAIN1_1{
+    background-image: url("../image/news2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:700px;
+    margin-top:-20px;
+    padding:0px;
+    margin-bottom: 50px;
+}
+.DARK1_1{
+    width:100%;
+    height:700px;
+    background-color: rgba(0,0,0,0.2);
+    padding-left:100px;
+    padding-top:450px;
+}
+.DARK2_2{
+    width:100%;
+    height:500px;
+    background-color: rgba(0,0,0,0.2);
+    padding-top:350px;
+
+}
+.PADDINGASLIMAIN2_2{
+    background-image: url("../image/news2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+    margin-top:-20px;
+    padding:0px;
+    margin-bottom: 50px;
+}
+.PIMGEMAINASLY1_1{
+    font-size:50pt;
+    color:white;
+}
+.PIMGEMAINASLY2_2{
+    font-size:20pt;
+    color:white;
+}
+.BTNASLIMAIN1_1{
+    border-radius: 30px;
+    background-color:dodgerblue;
+    margin-bottom: 20px;
+}
+.colorSPAN{
+    color:deepskyblue;
+    margin-right:15px;
+}
+.TITIRnews{
+    font-size:15pt;
+    margin-bottom: 10px;
+}
+.MARGINBOTTOM20PX{
+    margin-bottom: 20px;
+}
+.NEWS212{
+    font-size:14pt;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@font-face {
+  font-family:FIFA;
+  src:url(fonts/a.ttf) format('ttf');
+}
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  background-color:rgb(247,249, 252);
+}
+.PADDINGASLIMAIN{
+    background-image: url("../image/piri1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:700px;
+    margin-top:-20px;
+    padding:0px;
+}
+.DARK{
+    width:100%;
+    height:700px;
+    background-color: rgba(0,0,0,0.5);
+    padding-left:100px;
+    padding-top:350px;
+}
+.DARK2{
+    width:100%;
+    height:450px;
+    background-color: rgba(0,0,0,0.5);
+    padding-top:230px;
+
+}
+.PADDINGASLIMAIN2{
+    background-image: url("../image/piri1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:450px;
+    margin-top:-20px;
+    padding:0px;
+}
+.PIMGEMAINASLY{
+    font-size:50pt;
+    color:white;
+}
+.PIMGEMAINASLY2{
+    font-size:20pt;
+    color:white;
+}
+.BTNASLIMAIN{
+    border-radius: 30px;
+    background-color:dodgerblue;
+}
+.padding0PX{
+    padding: 0px;
+}
+.FOntyu{
+    font-size:60pt;
+}
+.BORDERASLINews{
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 30px;
+}
+.MARGINRow{
+    margin-bottom: 50px;
+}
+.BAckgroundCOlorPAddingNEws{
+    background-color: white;
+    border-radius: 15px;
+    padding: 0px 0px 30px 0px;
+}
+.MARGINKHBARJADID{
+    margin-bottom: 30px;
+}
+.MARGINKHBARJADID:hover{
+    cursor: pointer;
+}
+.FONTKHABAsamtchap{
+    font-size:20pt;
+    margin-left:30px;
+}
+.fontsizePkhabarJaddid{
+    font-size: 15pt;
+}
+.margin20pxKhabar{
+    margin-bottom: 20px;
+    margin-left:20px;
+}
+.MORE{
+    font-size: 17pt;
+    color: darkslateblue;
+}
+.ImgMedia{
+    width:90px;
+    height:90px;
+    border-radius: 10px;
+}
+.FontNewsFareeMore{
+    font-size: 10pt;
+}
+.TozihTITREasli{
+    margin-left:30px;
+    font-size:13pt;
+}
+.PADDINGASLIMAIN1_1{
+    background-image: url("../image/piri2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:700px;
+    margin-top:-20px;
+    padding:0px;
+}
+.DARK1_1{
+    width:100%;
+    height:700px;
+    background-color: rgba(0,0,0,0.2);
+    padding-left:100px;
+    padding-top:350px;
+}
+.DARK2_2{
+    width:100%;
+    height:500px;
+    background-color: rgba(0,0,0,0.2);
+    padding-top:230px;
+
+}
+.PADDINGASLIMAIN2_2{
+    background-image: url("../image/piri2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+    margin-top:-20px;
+    padding:0px;
+}
+.PIMGEMAINASLY1_1{
+    font-size:50pt;
+    color:white;
+}
+.PIMGEMAINASLY2_2{
+    font-size:20pt;
+    color:white;
+}
+.BTNASLIMAIN1_1{
+    border-radius: 30px;
+    background-color:dodgerblue;
+    margin-bottom: 20px;
+}
+.PIMGEMAINASLY2_3{
+    font-size:15pt;
+    color:white;
+    margin-bottom: 30px;
+}
+.men{
+    font-size: 15pt;
+    margin-bottom: 30px;
+}
+.HRLANTY{
+    height: 1px;
+    background-color:gray;
+    margin-bottom: 20px;
+}
+.IMGTURNOMENTP{
+    position: absolute;
+    left:100px;
+    top:1px;
+    font-size: 13pt;
+}
+.IMGTURNOMENT{
+    position: absolute;
+    top:-10px;
+}
+.oops{
+    margin-bottom: 12px;
+}
+.updated{
+    font-size: 13pt;
+    margin-bottom: 30px;
+}
+.updated>a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.AllFiba{
+    font-size: 20pt;
+    color: black;
+    margin-bottom: 50px;
+}
+.AllFiba2{
+    font-size: 20pt;
+    color: black;
+    margin-bottom: 20px;
+}
+.PaddingAllFiba{
+    padding-top:60px;
+}
+.MarginIMGallFIBA{
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.KhabarAllFiba{
+    margin-bottom: 20px;
+    font-size: 14pt;
+}
+.PADDINGAKAHR{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.HEGUHT{
+    height:45px;
+}

@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@font-face {
+  font-family:FIFA;
+  src:url(fonts/a.ttf) format('ttf');
+}
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  background-color:rgb(247,249,252);
+}
+
+
+.navbar-nav>li>.dropdown-menu {
+  margin-top: 20px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-weight: bold;
+}
+
+.mega-dropdown {
+  position: static !important;
+  width: 100%;
+}
+
+.mega-dropdown-menu {
+  padding: 20px 0px;
+  width: 100%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.mega-dropdown-menu:before {
+  content: "";
+  border-bottom: 15px solid #fff;
+  border-right: 17px solid transparent;
+  border-left: 17px solid transparent;
+  position: absolute;
+  top: -15px;
+  left: 285px;
+  z-index: 10;
+}
+
+.mega-dropdown-menu:after {
+  content: "";
+  border-bottom: 17px solid #ccc;
+  border-right: 19px solid transparent;
+  border-left: 19px solid transparent;
+  position: absolute;
+  top: -17px;
+  left: 283px;
+  z-index: 8;
+}
+
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #999;
+  white-space: normal;
+}
+
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+  color: #1277d9;
+}
+
+.mega-dropdown-menu .dropdown-header {
+  color: #000f2c;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.mega-dropdown-menu form {
+  margin: 3px 20px;
+}
+
+.mega-dropdown-menu .form-group {
+  margin-bottom: 3px;
+}
+.PaDdingTopAsliContainer{
+    padding-top:60px;
+}
+.padding0PX{
+    padding: 0px;
+}
+.logoBaackgroundColor{
+    background-color:white;
+    height:60px;
+    line-height:60px;
+}
+.FontLogoTop{
+    color:#477dac;
+    font-size:30pt;
+    font-family:FIFA;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+  .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color:#1277d9;
+    background-color:rgb(248,248,248);
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000f2c;
+}
+.marginULASli{
+  margin-bottom: 5px;
+}
+.SpanLi{
+  left:90%;
+  top:12px;
+  position: absolute;
+}
+
+.transformtriangle{
+	
+	transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	
+	
+	}
+.BTNLOGIN{
+  position: absolute;
+  top:15px;
+  left:95%;
+  border-width:0px;
+  color:black;
+}
+.BTNLOGIN:hover{
+  background-color:white;
+  color:aqua;
+}
+.BTNLOGIN2{
+  position: absolute;
+  top:10px;
+  left:85%;
+  border-width:0px;
+  color:black;
+}
+.BTNLOGIN2:hover{
+  background-color:white;
+  color:darkblue;
+}
+.MarginHR{
+  margin-bottom: 30px;
+}
+.backgroundCOLORWHITE{
+  background-color:white;
+}
+.fontPARTNER{
+  font-size:12pt;
+  margin-bottom: 20px;
+}
+.MarginPartnerimg{
+  margin-bottom: 15px;
+}
+.MarginPartnerimg:hover{
+  cursor: pointer;
+}
+.FontLogoTop2{
+  color:#477dac;
+  font-size:40pt;
+  font-family:FIFA;
+}
+.FooterTEXTASli{
+  color:black;
+  font-size:17pt;
+  margin-bottom: 10px;
+}
+.FooterTEXTFAREE{
+  margin-bottom: 20px;
+}
+.FooterTEXTFAREE>a{
+  color:gray;
+  font-size:11pt;
+}
+.FooterTEXTFAREE>a:hover{
+  color:#1277d9;
+  text-decoration: none;
+  cursor: pointer;
+}
+.MarginSocialMedia{
+  margin-left:5px;
+  width:30px;
+  height:30px;
+  margin-bottom: 20px;
+}
+.MarginSocialMedia:hover{
+  cursor: pointer;
+}
+.HEGHTDIVFOOTER{
+  height:3px;
+  background-color:#477dac;
+}
