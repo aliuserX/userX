@@ -1,0 +1,115 @@
+@font-face{
+	font-family:font1;
+	src: url("fonts/FontsFree-Net-ir_sans.ttf");
+	}
+	@font-face{
+		font-family:font2;
+		src: url("fontss/FontsFree-Net-ir_sans.ttf");
+		}
+body{
+    font-family:font2;
+	background-color:#E6E6E6;
+	direction:rtl;
+	font-size: 10pt;
+	
+	}
+	.bordermain{
+	border-style:solid;
+	border-width:5px;
+	border-color:white;
+	background-color:white;
+	border-radius:10px;
+	margin-top:30px;
+	}
+	.mainasli{
+	background-color: white ;
+	padding-top :20px ;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:30px;
+	}
+	.jalasat{
+	text-align:center;
+	font-size:20px;
+	color:black;
+	
+	}
+	.paddinglogo{
+	
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+	
+	
+	}
+	.logoimg{
+	padding:20%;
+	
+	}
+	.text1{
+	text-align:center;
+	}
+	
+	.marginbottom2{
+	margin-bottom:150px;
+	}
+	
+	.direction1{
+	direction:ltr;
+	}
+	
+	.logobala{
+	
+	margin-right:99%;
+	text-align:center;
+	
+	}
+	.rangform{
+
+		background-color:#E6E6E6;
+	}
+.spanlg{
+	padding-right: 94%;
+	color: gray;
+}
+.spanmd{
+	padding-right: 91%;
+	color: gray;
+}
+
+.spanxs{
+	padding-right: 83%;
+	color: gray;
+}
+.spanlgg{
+	padding-right: 97%;
+	color: gray;
+}
+.spanmdd{
+	padding-right: 95%;
+	color: gray;
+}
+
+.spanxss{
+	padding-right: 91%;
+	color: gray;
+}
+.paddingleftlogo{
+
+padding-right: 20px;
+padding-left: 20px;
+
+
+
+}
+.fds{
+
+	padding-left: 15%;
+	padding-right: 15%;
+	
+	}
+
+	
+	
